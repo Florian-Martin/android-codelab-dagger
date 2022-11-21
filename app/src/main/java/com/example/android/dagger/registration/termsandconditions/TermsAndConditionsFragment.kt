@@ -30,8 +30,7 @@ import javax.inject.Inject
 
 class TermsAndConditionsFragment : Fragment() {
 
-    @Inject
-    lateinit var registrationViewModel: RegistrationViewModel
+    @Inject lateinit var registrationViewModel: RegistrationViewModel
 
     override fun onCreateView(
         inflater: LayoutInflater,
