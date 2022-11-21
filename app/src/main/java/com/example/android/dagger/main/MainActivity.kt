@@ -31,8 +31,10 @@ import javax.inject.Inject
 
 class MainActivity : AppCompatActivity() {
 
-    @Inject lateinit var mainViewModel: MainViewModel
-    @Inject lateinit var userManager: UserManager
+    @Inject
+    lateinit var mainViewModel: MainViewModel
+    @Inject
+    lateinit var userManager: UserManager
 
     /**
      * If the User is not registered, RegistrationActivity will be launched,
