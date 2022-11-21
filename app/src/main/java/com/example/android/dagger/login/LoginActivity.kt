@@ -33,7 +33,8 @@ import javax.inject.Inject
 
 class LoginActivity : AppCompatActivity() {
 
-    @Inject lateinit var loginViewModel: LoginViewModel
+    @Inject
+    lateinit var loginViewModel: LoginViewModel
     lateinit var errorTextView: TextView
     lateinit var loginComponent: LoginComponent
 
